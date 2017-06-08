@@ -10,4 +10,11 @@
 
 @interface LYResourceKit : NSObject
 
+/**
+ singleton
+
+ @return instance
+ */
++ (instancetype)kit;
+
 @end
