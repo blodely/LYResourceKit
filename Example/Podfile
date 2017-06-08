@@ -1,0 +1,15 @@
+# SOURCE
+source 'https://github.com/blodely/LYSpecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '8.0'
+use_frameworks!
+inhibit_all_warnings!
+
+target 'LYResourceKit_Example' do
+	pod 'LYResourceKit', :path => '../'
+
+	target 'LYResourceKit_Tests' do
+		inherit! :search_paths
+	end
+end
