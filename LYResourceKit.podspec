@@ -22,7 +22,7 @@ By Luo Yu
 
 	s.social_media_url = 'https://weibo.com/blodely'
 
-	s.ios.deployment_target = '7.0'
+	s.ios.deployment_target = '9.0'
 
 	s.source_files = 'LYResourceKit/Classes/**/*'
 
